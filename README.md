@@ -1,6 +1,6 @@
 # Lattice
 Creación de diagrama de Lattice y gráfica de voltaje final y voltaje acumulado
 
-Se necesita MatpotLib y Numpy
+El programa usa MatpotLib, Numpy y Tkinter
 
-Solo hay que ejecutar y usar los cuadros de texto para ingresar los parámetros
+Solo hay que ejecutar teniendo instaladas las librerías necesarias y usar los cuadros de texto para ingresar los parámetros
