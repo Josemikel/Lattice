@@ -155,7 +155,7 @@ def plot():
                x2, y2 = [vlines[2], vlines[2] + vlines[2] / 20], [tiempo, tiempo]
                ax.plot(x2, y2, color=color[2])
                ax.text(vlines[2] + vlines[2] / 20, tiempo, str(round(voltaje_final[tiempo], 4)), size=text_size, clip_on=True)
-               ax.text(vlines[2] + vlines[2] / 10, tiempo, str(round(voltaje_acum[tiempo], 4)), size=text_size, clip_on=True)
+               ax.text(vlines[2] + vlines[2] / 7, tiempo, str(round(voltaje_acum[tiempo], 4)), size=text_size, clip_on=True)
 
           tiempo = tiempo + 1  # Incrementa el tiempo para la siguiente iteración
 
